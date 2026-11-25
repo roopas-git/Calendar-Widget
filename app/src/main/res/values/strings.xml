@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Simple Calendar Widget</string>
+
+    <string name="notification_channel_name">Event reminders</string>
+    <string name="notification_channel_description">Reminders 15 minutes before events, and at 9 AM for all-day events</string>
+
+    <string name="widget_title">Upcoming events</string>
+    <string name="widget_no_upcoming_events">No upcoming events</string>
+
+    <string name="permission_rationale_calendar">Calendar access is needed to read your events and notify you about what\'s coming up.</string>
+    <string name="permission_rationale_notifications">Notification permission is needed to alert you about upcoming events.</string>
+    <string name="grant_permissions">Grant permissions</string>
+    <string name="check_now">Check now</string>
+    <string name="upcoming_events_heading">Upcoming events</string>
+    <string name="events_filtered_by_widgets">From the calendars shown on your widgets</string>
+    <string name="add_widget_hint_title">Add the widget</string>
+    <string name="add_widget_hint">Long-press your home screen, tap Widgets, and drag Simple Calendar Widget onto it. You can pick colors and themes for each widget.</string>
+
+    <string name="lookahead_heading">Show upcoming events by</string>
+    <string name="lookahead_mode_days">Number of days</string>
+    <string name="lookahead_mode_count">Number of events</string>
+    <string name="lookahead_days_value">%1$d days ahead</string>
+    <string name="lookahead_count_value">%1$d upcoming events</string>
+
+    <string name="config_heading">Widget settings</string>
+    <string name="config_section_themes">Themes</string>
+    <string name="config_section_calendar">Calendar</string>
+    <string name="config_section_colors">Background Color Setting</string>
+    <string name="config_section_display">Display</string>
+    <string name="config_calendar_accounts_heading">Calendar Accounts</string>
+    <string name="config_calendar_accounts_subtitle">Select calendar to display events</string>
+    <string name="config_calendar_permission_rationale">Calendar access is needed to list and choose your calendars.</string>
+    <string name="config_grant_calendar_permission">Grant calendar permission</string>
+    <string name="config_no_calendars_found">No calendars found on this device.</string>
+    <string name="config_background_color">Background Color</string>
+    <string name="config_background_color_subtitle">Color to use for widget background</string>
+    <string name="config_gradient">Gradient Background</string>
+    <string name="config_gradient_subtitle">Blend the background into a second color</string>
+    <string name="config_gradient_end_color">Gradient Color</string>
+    <string name="config_gradient_end_color_subtitle">Second color of the background gradient</string>
+    <string name="config_text_color">Text Color</string>
+    <string name="config_text_color_subtitle">Color to use for text</string>
+    <string name="config_today_color">Today Color</string>
+    <string name="config_today_color_subtitle">Color to use for today\'s event</string>
+    <string name="config_tomorrow_color">Tomorrow Color</string>
+    <string name="config_tomorrow_color_subtitle">Color to use for tomorrow\'s event</string>
+    <string name="config_date_color">Date Color</string>
+    <string name="config_date_color_subtitle">Color of the big date on the left</string>
+    <string name="config_background_opacity">Background Opacity</string>
+    <string name="config_corner_radius">Round Edges</string>
+    <string name="config_text_size">Text Size</string>
+    <string name="config_show_date_block">Show Date</string>
+    <string name="config_show_date_block_subtitle">Show today\'s date block on the left</string>
+    <string name="config_calendar_colors">Calendar Color Dots</string>
+    <string name="config_calendar_colors_subtitle">Mark each event with its calendar\'s color</string>
+    <string name="config_save">Save widget</string>
+
+    <string name="color_picker_close">Close</string>
+    <string name="color_picker_pick">Pick</string>
+
+    <!-- Widget picker preview (sample content) -->
+    <string name="widget_label">Upcoming events</string>
+    <string name="widget_description">Your upcoming calendar events with a big date, in colors and themes you choose.</string>
+    <string name="widget_preview_month" translatable="false">MAY</string>
+    <string name="widget_preview_day" translatable="false">30</string>
+    <string name="widget_preview_weekday" translatable="false">FRI</string>
+    <string name="widget_preview_row_0" translatable="false"><font color="#FF4F81">●</font> <b><font color="#FFAB00">Today</font></b>\u00A0\u00A0Asha\'s Birthday</string>
+    <string name="widget_preview_row_1" translatable="false"><font color="#42A5F5">●</font> <b><font color="#009ACD">Tomorrow 11:00 AM</font></b>\u00A0\u00A0Team sync</string>
+    <string name="widget_preview_row_2" translatable="false"><font color="#66BB6A">●</font> <b><font color="#009ACD">Tomorrow 01:00 PM</font></b>\u00A0\u00A0Lunch with Ravi</string>
+    <string name="widget_preview_row_3" translatable="false"><font color="#FF9800">●</font> <b><font color="#CCFFFFFF">02 Jun 10:00 AM</font></b>\u00A0\u00A0Dentist appointment</string>
+    <string name="widget_preview_row_4" translatable="false"><font color="#AB47BC">●</font> <b><font color="#CCFFFFFF">03 Jun</font></b>\u00A0\u00A0Family trip</string>
+</resources>
